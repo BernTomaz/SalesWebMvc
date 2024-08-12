@@ -17,11 +17,11 @@ namespace SalesWebMvc.Models
         {
         }
 
-        public SalesRecord(double amount, DateTime date, int id, SaleStatus status, Seller seller)
+        public SalesRecord(int id, DateTime date, double amount, SaleStatus status, Seller seller)
         {
-            Amount = amount;
-            Date = date;
             Id = id;
+            Date = date;
+            Amount = amount;
             Status = status;
             Seller = seller;
         }
