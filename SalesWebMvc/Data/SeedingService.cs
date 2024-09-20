@@ -67,7 +67,9 @@ namespace SalesWebMvc.Data
             SalesRecord r27 = new SalesRecord(27, new DateTime(2018, 10, 13), 9000.0, SaleStatus.Pending, s1);
             SalesRecord r28 = new SalesRecord(28, new DateTime(2018, 10, 7), 4000.0, SaleStatus.Billed, s3);
             SalesRecord r29 = new SalesRecord(29, new DateTime(2018, 10, 23), 12000.0, SaleStatus.Billed, s5);
-            SalesRecord r30 = new SalesRecord(30, new DateTime(2018, 10, 12), 5000.0, SaleStatus.Billed, s2);
+            SalesRecord r30 = new SalesRecord(30, new DateTime(2024, 09, 12), 5000.0, SaleStatus.Billed, s2);
+            
+
 
             _context.Department.AddRange(d1, d2, d3, d4);
 
