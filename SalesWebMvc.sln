@@ -5,11 +5,6 @@ VisualStudioVersion = 16.0.35026.282
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SalesWebMvc", "SalesWebMvc\SalesWebMvc.csproj", "{797903AE-D0A4-4DC1-8BE6-8A147EB7D577}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{53C60EF2-8C43-4F76-9E5D-1572B9F977BF}"
-	ProjectSection(SolutionItems) = preProject
-		SalesWebMvc\Models\ViewModels\ErrorViewModel.cs = SalesWebMvc\Models\ViewModels\ErrorViewModel.cs
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
