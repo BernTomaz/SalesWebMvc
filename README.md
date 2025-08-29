@@ -93,6 +93,11 @@ O sistema segue o seguinte modelo de entidades:
 ---
 
 
+## 🧑‍💻 Autor
 
+**Bernardo Tomaz**  
+📌 [GitHub](https://github.com/BernTomaz)
+
+---
 
 
