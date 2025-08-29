@@ -1,0 +1,97 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+<div class="contact-wrapper">
+    <div class="contact-page text-center">
+        <header class="contact-header">
+            <h2>@ViewData["Title"]</h2>
+            <p class="lead">@ViewData["Message"]</p>
+        </header>
+
+        <div class="contact-card">
+            <address>
+                <p>Rua Moreia</p>
+                <p>Rio de Janeiro - RJ</p>
+                <p>Telefone: 99 99999-9999</p>
+            </address>
+
+            <hr />
+
+            <address>
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:bernardo.tomaz@hotmail.com">bernardo.tomaz@hotmail.com</a>
+                </p>
+            </address>
+        </div>
+    </div>
+
+    <footer class="contact-footer text-center">
+        <p>© @DateTime.Now.Year - SalesWebMvc</p>
+    </footer>
+</div>
+
+<style>
+    /* ===== CONTACT PAGE ===== */
+    .contact-wrapper {
+        min-height: calc(100vh - 56px); /* ocupa quase toda a tela, menos a navbar */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 40px 20px;
+    }
+
+    .contact-page {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-header {
+        margin-bottom: 24px;
+    }
+
+        .contact-header h2 {
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        .contact-header .lead {
+            color: #666;
+        }
+
+    .contact-card {
+        background: #fff;
+        border: 1px solid rgba(0,0,0,.08);
+        border-radius: 8px;
+        padding: 24px;
+        box-shadow: 0 2px 6px rgba(0,0,0,.06);
+        max-width: 420px;
+        width: 100%;
+        text-align: left;
+    }
+
+        .contact-card address {
+            margin: 0 0 12px;
+            font-style: normal;
+            color: #444;
+        }
+
+        .contact-card a {
+            color: #2bbbad;
+            text-decoration: none;
+        }
+
+            .contact-card a:hover {
+                text-decoration: underline;
+            }
+
+    .contact-footer {
+        margin-top: 40px;
+        font-size: 14px;
+        color: #777;
+    }
+</style>

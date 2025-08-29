@@ -1,0 +1,102 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+
+<div class="about-wrapper">
+    <div class="about-page">
+        <header class="about-header text-center">
+            <h2>@ViewData["Title"]</h2>
+            <p class="lead">@ViewData["Message"]</p>
+        </header>
+
+        <div class="dev-card">
+            <div class="dev-info text-center">
+                <h4>Desenvolvedor</h4>
+                <p class="dev-name">@ViewData["Desenvolvedor"]</p>
+                <a class="btn btn-primary btn-sm" href="https://berndev.online/" target="_blank">
+                    Portfólio Bernardo
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="about-footer text-center">
+        <p>© @DateTime.Now.Year - SalesWebMvc</p>
+    </footer>
+</div>
+
+<style>
+    /* ===== LAYOUT PRINCIPAL ===== */
+    .about-wrapper {
+        min-height: calc(100vh - 56px); /* ocupa quase toda tela, descontando navbar */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* empurra footer para baixo */
+        padding: 40px 20px;
+    }
+
+    .about-page {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; /* centraliza verticalmente */
+    }
+
+    /* ===== HEADER ===== */
+    .about-header {
+        margin-bottom: 32px;
+    }
+
+        .about-header h2 {
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        .about-header .lead {
+            color: #666;
+        }
+
+    /* ===== CARD ===== */
+    .dev-card {
+        background: #fff;
+        border: 1px solid rgba(0,0,0,.08);
+        border-radius: 8px;
+        padding: 24px;
+        box-shadow: 0 2px 6px rgba(0,0,0,.06);
+        max-width: 420px;
+        width: 100%;
+    }
+
+    .dev-info h4 {
+        margin-top: 0;
+        font-weight: 600;
+        color: #444;
+    }
+
+    .dev-name {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 6px 0 12px;
+        color: #2bbbad;
+    }
+
+    .btn-primary {
+        background-color: #2bbbad;
+        border-color: #2bbbad;
+        border-radius: 20px;
+        padding: 6px 20px;
+    }
+
+        .btn-primary:hover {
+            background-color: #249c91;
+            border-color: #249c91;
+        }
+
+    /* ===== FOOTER ===== */
+    .about-footer {
+        margin-top: 40px;
+        font-size: 14px;
+        color: #777;
+    }
+</style>
