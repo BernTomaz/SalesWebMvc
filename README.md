@@ -92,18 +92,7 @@ O sistema segue o seguinte modelo de entidades:
 
 ---
 
-## 📸 Demonstração
 
-👉 (Adicione aqui prints do sistema rodando, por exemplo, tela de cadastro de vendedores, tela de vendas etc.)
-
----
-
-## 🧑‍💻 Autor
-
-**Bernardo Tomaz**  
-📌 [GitHub](https://github.com/BernTomaz)
-
----
 
 
 
