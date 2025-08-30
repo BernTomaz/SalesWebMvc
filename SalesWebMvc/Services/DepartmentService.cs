@@ -2,7 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using SalesWebMvc.Data;
-using SalesWebMvc.Models;
+
 
 namespace SalesWebMvc.Services
 {
